@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import "../style.css"
+// import DownloadBtn from "./Download"
 
 export default function Meme() {
 
@@ -62,6 +63,7 @@ export default function Meme() {
                 >
                     Get a new meme image
                 </button>
+                {/* <DownloadBtn /> */}
             </div>
             <div className="meme">
                 <img src={meme.randomImage} className="meme-img"
